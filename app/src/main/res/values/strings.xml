@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_title">Cryptography Volume 1</string>
+    <string name="article_subtitle">A Basic Introduction </string>
+    <string name="article_text">We can say cryptography methods to keep information private and to communicate in a way such that only the intendent recipient can read the message.
+\n\n
+    Cryptography achieves this by converting data into a different form which is in-comprehensible (often called ciphertext). The process of converting data into ciphertext is called encryption and the process of converting retrieving data from ciphertext is known as decryption ; performing encryption and decryption requires secret information such as passwords or key. \n You can learn more from this link:\n https://www.commonlounge.com/discussion/20f56c5cfff24d5d87f8a583505bb122
+\n\n
+<b> Cryptography Terms:</b>  \n
+\t 1. <i><b>Plain Text-</b></i> The original message in its original legible form. \n
+\t 2. <i><b>Ciphertext-</b></i> Encrypted text that will appear to be random string. \n
+\t 3. <i><b>Encryption-</b></i> The process of converting data into its cryptic form that prevents unauthorized access i.e. converting plain text to ciphertext. This process requires encryption keys which provide information regarding the specific implementation of a given encryption algorithm.\n
+\t 4. <i><b>Decryption-</b></i> The process of converting encrypted data back into its original form for use i.e. converting ciphertext back into plain text. Decryption requires a decryption key which provides the specific information required to \'undo\' the encryption. \n
+\n\n
+   Now I would like to introduce a very important theorem related to cryptography and this is Kerckhoff\'s Principle. \n
+   <b>Kerckhoff\'s Principle:</b> \n
+   The system must be secure even if everything except the private key is public information. In particular, the design of the system must not be required to be kept secret.\n
+   <b>NOTE: </b> <i>Top secret information may be encrypted using a 192 or 256 bit key whereas less highly classified information may be encrypted using 128-bit key for efficacy. AES involves 10 rounds of encryption process for 128-bit key , 12 rounds for 192 bit keys and 14 rounds for 256 bit keys.</i> \n
+   <b>Symmetric Key Cryptosystem: </b>\nThere are various type of cryptosystem , now I\'ll talk about Symmetric key cryptosystem. Cryptosystems that use the same key for encryption as well as decryption. This key is assumed to be a shared secret between the two parties exchanging messages. Symmetric cryptosystems also has some section such as Caesar cipher , shift cipher etc. I\'ve only knowledge about caser and shift cipher. \n
+   <b>Caesar Cipher: </b>\n
+   Unlike many modern ciphers the Caesar cipher does not have any secret key that\'s needed to decode the message. In Caesar cipher, each letter of a message is replaced by the letter three steps to the right of it in the alphabet. For example A is replaced by D , B is replaced by E , etc. The shift \"wraps\" around the alphabet so that X is replaced by A ,Y is replaced by B and Z is replaced by C. To decode the message encrypted with Caesar cipher it is necessary yo shift each letter in the ciphertext left by three to reach the original plaintext that is X replaced by A, Y is replaced by B etc. \n
+\n\n
+   As an example : lets consider the encryption of the message chiNmoy using Caesar cipher as follows:\n
+   C—> f ; h> k ; i—> l ; N—> Q ; m—> p ; o—> r ; y—> b \n
+   then we have chiNmoy —> fklQprb
+        </string>
+    <string name="submit">submit</string>
+    <string name="add_comment">Add Comment</string>
+</resources>
